@@ -2,10 +2,13 @@
   color: blueviolet;
 }
 
-.child2 {
+.parent>.child1>.child2 {
 color: green; 
 }
 
-#about{
+/* #about{
 background-color: aqua;
+} */
+a[href^="#"] {
+color:aqua
 }
