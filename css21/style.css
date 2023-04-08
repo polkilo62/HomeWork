@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "VagenthaCalligraphy";
+  font-weight: 400;
+  font-style: normal;
+  src: local("VagenthaCalligraphy"),
+    url("../fonts/VagenthaCalligraphy.woff2") format('woff2'),
+    url("../fonts/VagenthaCalligraphy.woff") format('woff'),
+    url("../fonts/VagenthaCalligraphy.eot") format('eot');
+  font-display: swap;
+}
+.great__text-1 {
+  font-family: 'Delicious Handrawn', cursive;
+  font-weight: normal;
+}
+
