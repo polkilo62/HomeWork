@@ -1,0 +1,21 @@
+body {
+  padding: 50px;
+}
+
+.block {
+  height: 500px;
+  box-shadow: 0 0 10px #000;
+  border-radius: 5px;
+}
+
+.block {
+  background: linear-gradient(rgb(44, 128, 44), rgb(136, 136, 21));
+  background: url("./image/laptop.jpg") no-repeat center;
+  background-size: cover
+}
+/* .block{
+  background-color:rebeccapurple;
+  background-image:url("./image/laptop.jpg") ;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
