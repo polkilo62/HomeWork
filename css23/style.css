@@ -1,0 +1,20 @@
+body {
+  padding: 50px;
+}
+
+.block {
+  height: 500px;
+  box-shadow: 0 0 10px #000;
+  border-radius: 5px;
+}
+
+/* .block {
+  background: url("./image/laptop.jpg") no-repeat  center, linear-gradient(rgb(44, 128, 44), rgb(136, 136, 21));
+  background-size: cover
+} */
+.block{
+  background:linear-gradient(rgb(44, 128, 44), rgb(136, 136, 21));
+  background-image:url("./image/laptop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
