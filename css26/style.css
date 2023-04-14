@@ -1,0 +1,18 @@
+.block__1{
+  height: 300px;
+  width: 300px;
+  background-color: rgb(104, 104, 104);
+  border: 5px solid black;
+  Transition:all 3s 2s;
+  margin: 100px;
+}
+.block__2{
+  height: 300px;
+  width: 300px;
+  background-color: rgb(170, 128, 13);
+  border: 5px solid black;
+  transition-property: all;
+  Transition-duration:3s;
+  Transition-delay:2s;
+  margin: 100px;
+}
