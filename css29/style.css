@@ -1,0 +1,27 @@
+.wrapper {
+  height: 100vh;
+  background-color: rgba(83, 85, 87, 0.634);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  width: 50%;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(2, 1fr) minmax(100px, 200px) repeat(2, 1fr);
+}
+
+.grid__item {
+  text-align: center;
+  padding: 20px;
+  border: 3px dashed rgb(238, 6, 6);
+  background-color: rgb(9, 112, 185);
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
