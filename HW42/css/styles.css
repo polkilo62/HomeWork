@@ -1,0 +1,29 @@
+body {
+	font-family: sans-serif;
+}
+.form {
+	border: 1px solid rgb(255, 166, 0);
+	max-width: 250px;
+	padding: 10px;
+}
+.form-group {
+	border: none;
+	padding: 0;
+}
+.form-groop-title {
+	font-weight: 700;
+	padding: 0;
+	margin-bottom: 10px;
+}
+.label {
+	display: block;
+	margin-bottom: 5px;
+}
+.textarea {
+	resize: vertical;
+	min-height: 20px;
+	max-height: 200px;
+}
+.button {
+	cursor: pointer;
+}
