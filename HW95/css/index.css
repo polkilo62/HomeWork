@@ -116,6 +116,11 @@
 	width: 22px;
 	height: 9px;
 	background-image: url(../images/arrow-right-icon.svg);
+	-webkit-transition: -webkit-transform 0.2s;
+    transition: -webkit-transform 0.2s;
+    -o-transition: transform 0.2s;
+   transition: transform 0.2s;
+   transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
 .news-link:hover::after {
